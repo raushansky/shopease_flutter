@@ -62,18 +62,25 @@ class ProductModel {
         image.contains('400x300') ||
         image.contains('placeholder') ||
         image.contains('dummyjson.com/image') ||
+        image.contains('-cover') ||
         !image.startsWith('http')) {
-      if (n.contains('coffee') || n.contains('machine') || n.contains('mug')) {
-        return 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600';
+      if (n.contains('bat') || n.contains('cricket')) {
+        return 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600';
+      } else if (n.contains('yoga') || n.contains('mat')) {
+        return 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=600';
+      } else if (n.contains('coffee') || n.contains('mug')) {
+        return 'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=600';
+      } else if (n.contains('block') || n.contains('toy') || n.contains('building')) {
+        return 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600';
       } else if (n.contains('steel') || n.contains('bottle') || n.contains('insulated')) {
         return 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600';
-      } else if (n.contains('shoe') || n.contains('running') || c.contains('shoe')) {
+      } else if (n.contains('shoe') || n.contains('running') || c.contains('shoe') || c.contains('sports')) {
         return 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600';
-      } else if (n.contains('shirt') || n.contains('cloth') || c.contains('fashion')) {
+      } else if (n.contains('shawl') || n.contains('dress') || n.contains('shirt') || n.contains('cloth') || c.contains('fashion')) {
         return 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600';
       } else if (n.contains('watch') || n.contains('smart')) {
         return 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600';
-      } else if (n.contains('headphone') || n.contains('earbud') || n.contains('audio')) {
+      } else if (n.contains('headphone') || n.contains('earbud') || n.contains('audio') || n.contains('music')) {
         return 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600';
       } else if (n.contains('phone') || c.contains('mobile')) {
         return 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600';

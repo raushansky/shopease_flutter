@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
       'discount': '20% OFF',
       'rating': 4.5,
       'reviews': '8k+',
-      'image': 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=500',
+      'image': 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=500',
     },
     {
       'id': 'bd_3',
@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
       'discount': '23% OFF',
       'rating': 4.5,
       'reviews': '10k+',
-      'image': 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500',
+      'image': 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=500',
     },
     {
       'id': 'bd_4',
@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
       'discount': '20% OFF',
       'rating': 4.5,
       'reviews': '5k+',
-      'image': 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500',
+      'image': 'https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500',
     },
   ];
 

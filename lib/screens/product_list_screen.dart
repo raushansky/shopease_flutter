@@ -120,7 +120,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
         'oldPrice': 299.0,
         'rating': 4.1,
         'category': "Women's Fashion",
-        'image': 'https://images.unsplash.com/photo-1680403397402-cover?w=400',
+        'image': 'https://images.unsplash.com/photo-1608234807905-4466023792f5?w=400',
       },
     ],
     'home': [
@@ -200,7 +200,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
         'oldPrice': 1299.0,
         'rating': 4.4,
         'category': 'Sports',
-        'image': 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400',
+        'image': 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=400',
       },
     ],
   };
